@@ -1,0 +1,61 @@
+/* medium layout: 1280px. */
+
+@media only screen and (min-width:992px) and (max-width: 1200px)
+
+{
+
+
+
+
+}
+
+/* tablet layout: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+
+
+{
+
+
+
+}
+
+
+/*mobile layout: 320px */
+
+@media only screen and (max-width: 767px)
+
+{
+.header{
+        height: 118px;
+        border-bottom: 0;
+        
+    }
+    .search_box{
+        width: 100%;
+    }
+    
+    .menu_bar{
+        width: 100%;
+    }
+    .menu_bar>ul{
+        margin: 10px 0px;
+        width: 100%;
+        
+    }
+    
+    .menu_bar>ul>li{
+        height: 57px;
+        width: 100%;
+    }
+
+
+}
+
+/* wide mobile layout: 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
